@@ -15,7 +15,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'demoproj.settings')
 
 application = get_wsgi_application()
 
-option_settings:
-    aws:elasticbeanstalk:container:python:
-        WSGIPath: demoproj.wsgi:application
+#option_settings:
+#    aws:elasticbeanstalk:container:python:
+ #       WSGIPath: demoproj.wsgi:application
 
